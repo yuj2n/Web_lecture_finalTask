@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="취미" content="게임, 노래 듣기, 노래 부르기, 운동" />
+    <link rel="stylesheet" href=".css/hobby.css" />
+    <link rel="stylesheet" href=".css/global.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>취미</title>
+  </head>
+  <body>
+    <nav id="main">
+      <a href="main.html"><h1>전유진의 블로그</h1></a>
+      <div>
+        <a href="favorite.html">좋아하는 것</a>
+        <a href="hobby.html">취미</a>
+        <a href="activity.html">활동</a>
+        <a href="tmi.html">TMI</a>
+      </div>
+    </nav>
+    <header class="menu">
+      <a href="#main">
+        <label for="menubar"><div>메뉴</div></label>
+      </a>
+      <form>
+        <input type="checkbox" id="menubar" name="menubar" />
+      </form>
+      <ul>
+        <li>
+          <a href="#game" class="item">
+            <div>게임</div>
+          </a>
+        </li>
+        <li>
+          <a href="#listening" class="item">
+            <div>노래 듣기</div>
+          </a>
+        </li>
+        <li>
+          <a href="#singing" class="item">
+            <div>노래 부르기</div>
+          </a>
+        </li>
+        <li>
+          <a href="#exercise" class="item">
+            <div>운동</div>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section>
+      <main id="game">
+        <h1>게임</h1>
+        <pre>
+          저는 어렸을 때부터 오빠의 영향으로 게임을 즐겨했었는데요. 
+          특히 롤을 가장 오래했습니다. 
+
+          라인은 정글에 엘리스 자주 가고요, 서폿은 레오나, 나미, 아무무 갑니다.
+          
+          초등학교 5학년때부터 해서인지, 제 티어는 다이아입니다. 
+          같이하실 분들은 친추주세요😉.
+        </pre>
+        <img class="cover" src="/images/lol.png" alt="롤" width="500px" />
+        <video class="shadow opacity" controls src="/video/alice.mp4" width="700px"></video>
+        <p>하이라이트 영상</p>
+      </main>
+      <article id="listening">
+        <h1>노래 듣기</h1>
+        <pre>
+          제가 듣는 노래 장르는 여러가진데요! 
+          랩, 팝송, 발라드, 댄스 모두 즐겨듣습니다. 
+
+          특히 요즘에는 감성랩이 많이 끌려요.
+          그중에서 김승민의 10°0' 0° N 118°50 0° E라는 노래와 재하의 끝이라고 말하지마가
+          중독성도 굉장히 강하고 감성적인 것 같아요. 
+          
+          나중에 유튜브에 플레이리스트를 직접 짜서 올려보고 싶은 
+          소소한 계획도 있습니다!🙂
+        </pre>
+        <img class="cover" src="/images/김승민.jpg" alt="김승민" width="400px" />
+        <p>김승민 - 10°0' 0° N 118°50 0° E</p>
+        <!-- 미디어 활용 V -->
+        <audio src="audio/김승민.mp3" controls></audio>
+        <video src="video/끝이라고말하지마.mp4" controls width="600px"></video>
+        <p>JAEHA (재하) - 끝이라고 말하지 마 (feat. 래원)</p>
+      </article>
+      <article id="singing">
+        <h1>노래 부르기</h1>
+        <img class="shadow" src="/images/rose.jpg" alt="rose" width="400px" />
+        <p>이하이 - Rose</p>
+        <audio controls src="audio/rose.mp3"></audio>
+        <pre>
+          저는 노래 듣는 것만큼이나 노래 부르는 것을 좋아하는데요.
+          Music is my life.. 제 유일한 마약입니당.. 
+
+          혼코도 자주 가요! 노래방 좋아하시는 분은 저랑 친구먹죠?!😋
+
+          애창곡은 이하이의 Rose, 엠씨더맥스의 어디에도 등이 있습니다.
+        </pre>
+      </article>
+      <article id="exercise">
+        <h1>운동</h1>
+        <pre>
+          저는 건강을 중요시 여기다보니 기억이 날때면 스트레칭과 운동을
+          해주는데요! 
+          
+          자기 전에 스쿼트 50개와 플랭크 2분정도를 꾸준히 하고 잤던
+          기억이 있습니다. 최근에는 턱걸이 10개를 목표로 삼고 있어용 >_0
+        </pre>
+        <img class="shadow" src="/images/스쿼트.jpg" alt="스쿼트" width="600px" />
+        <p>스쿼트</p>
+        <img class="shadow" src="/images/플랭크.jpg" alt="플랭크" width="600px" />
+        <p>플랭크</p>
+      </article>
+    </section>
+  </body>
+</html>

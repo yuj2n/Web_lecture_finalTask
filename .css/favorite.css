@@ -1,0 +1,37 @@
+.menu li:nth-child(1) a::before {
+    content: '\e91d';
+}
+
+.menu li:nth-child(2) a::before {
+    content: '\e561';
+}
+
+.menu li:nth-child(3) a::before {
+    content: '\ea52';
+}
+
+.menu li:nth-child(4) a::before {
+    content: '\e40a';
+}
+
+article {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 50px;
+}
+
+span {
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+
+span > img {
+    width: 300px;
+    height: 350px;
+}
+

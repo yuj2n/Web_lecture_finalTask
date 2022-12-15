@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans KR", sans-serif;
+    
+}
+
+nav {
+    padding: 0 30px;
+    height: 10vh;
+    color: white;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav>div {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: rgb(255, 109, 156);
+    ;
+}
+
+.menu ::before {
+    font-family: "Material Icons";
+    font-size: 1.5em;
+    float: left;
+    clear: left;
+}
+
+#menubar {
+    /* 체크박스 폼 요소 감춤 */
+    display: none;
+}
+
+#menubar:checked~ul {
+    /* 체크박스 폼 요소 감춤 */
+    display: block;
+    height: auto;
+}
+
+.menu {
+    position: sticky;
+    float: right;
+    top: 15rem;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /*반응형 애니메이션*/
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    height: 25px;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a, menu li ul {
+    transition: all 0.5s ease;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.menu li ul:hover,
+.menu a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.menu div {
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: "Noto Sans KR";
+    padding: 0 0 0 50px;
+}
+
+@media screen and (max-width:1023px) {
+    .menu {
+        /* 1단계 */
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .menu #menubar:not(:checked)~ul {
+        /* 2단계 */
+        display: none;
+    }
+}
+
+.menu label::before {
+    content: '\e5d2';
+}
+
+.menu div {
+    position: absolute;
+    /* 절대 위치로 텍스트 고정 */
+    /* position으로 태그 위치 정함 V */
+    left: 50px;
+    line-height: 1.5;
+    font-size: 1em;
+    padding: 0 0 0 20px;
+    /* 패딩 20p로 축소 */
+}
+
+main {
+    padding: 100px 0;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+div {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.opacity {
+    transition: all 0.5s;
+}
+
+.opacity:hover {
+    opacity: 0.8;
+}
+
+.cover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    font-size: 1.5em;
+}

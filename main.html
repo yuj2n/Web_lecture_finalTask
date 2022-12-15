@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="메인 페이지"
+      content="나에 대한 간단한 소개, 개발관련 주소, 최근 관심사, 추가 정보"
+    />
+    <!-- 메타 태그 이용 V -->
+    <!-- 하이퍼링크 이용 V -->
+    <link rel="stylesheet" href="/.css/main.css" />
+    <link rel="stylesheet" href="/.css/global.css" />
+    <!-- 스타일 시트 이용 V -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>나만의 웹사이트</title>
+  </head>
+  <body>
+    <nav id="main">
+      <h1 href="#">전유진의 블로그</h1>
+      <div>
+        <a href="favorite.html">좋아하는 것</a>
+        <a href="hobby.html">취미</a>
+        <a href="activity.html">활동</a>
+        <a href="tmi.html">TMI</a>
+      </div>
+    </nav>
+    <header class="menu">
+      <a href="#main">
+        <label for="menubar"><div>메뉴</div></label>
+      </a>
+      <!-- 웹 폼 활용 V -->
+      <form>
+        <input type="checkbox" id="menubar" name="menubar" />
+      </form>
+      <ul>
+        <li>
+          <a href="#yujin" class="item">
+            <div>소개</div>
+          </a>
+        </li>
+        <li>
+          <a href="#dev" class="item">
+            <div>개발 주소</div>
+          </a>
+        </li>
+        <li>
+          <a href="#interest" class="item">
+            <div>최근 관심사</div>
+          </a>
+        </li>
+        <li>
+          <a href="#moreInfo" class="item">
+            <div>추가 정보</div>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h1>내 소개</h1>
+      <img id="yujin" src="/images/yujin.jpg" alt="내 사진" />
+      <h2>전유진</h2>
+      <h4>
+        안녕하세요! 저는 IT융합자율학부 22학번 전유진입니다 :) <br />
+        아직은 미숙한 부분이 많지만 프론트엔드 개발자를 꿈꾸고 있습니다.
+      </h4>
+    </main>
+    <section>
+      <article id="dev">
+        <h2>나의 개발 일지</h2>
+        <a class="opacity" href="https://github.com/yuj2n" target="_blank"
+          ><img class="shadow" src="/images/githubLogo.jpg" alt="깃허브 링크"
+        /></a>
+        <h3>Github 주소</h3>
+        <a class="opacity" href="https://velog.io/@yuj2n" target="_blank"
+          ><img
+            class="shadow"
+            src="/images/Velog.png"
+            alt="벨로그 링크"
+            height="200"
+        /></a>
+        <h3>Velog 주소</h3>
+      </article>
+      <article id="interest">
+        <h1>About me</h1>
+        <p>최근에 관심을 가지고 있는 것은..</p>
+        <a
+          class="opacity"
+          href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=1&acq=%EB%8C%80%EB%A9%B4+%EB%B9%84%EB%8C%80%EB%A9%B4&qdt=0&ie=utf8&query=%EB%8C%80%EB%A9%B4+%EB%B9%84%EB%8C%80%EB%A9%B4+%EC%99%B8%EB%A9%B4"
+          target="_blank"
+        >
+          <img
+            class="cover"
+            src="/images/대면 비대면 외면 책.jpg"
+            alt="대면 비대면 외면"
+            width="500"
+          />
+        </a>
+        <pre>
+            지금 듣고 있는 수업 중에 고병현 교수님의 더불어숲인문학(책읽기와 삶쓰기)라는 
+            교양 수업이 있는데요,
+            이 수업에서 3주에 한 권정도의 책을 읽고 있습니다.
+  
+            최근에 읽고 있는 대면 비대면 외면이라는 책이 굉장히 재미있고 읽을만하다고 여겨 
+            추천해드리고 싶습니다.
+  
+            책의 내용은 코로나19로 인해 우리가 대면과 비대면의 이분법으로 세상을 바라보지만
+            실은 대면의 반대말은 외면으로 우리가 대면하더라도 외면할 수 있고, 대면하고 있지
+            않더라도 대면할 수 있는 것처럼 관심을 가지는 것이 중요한 것이라는 점을 알려줍니다.
+  
+            고병현 교수님과 실제 이 책의 저자 분이 친분을 가지고 있어 다다음 수업 때 대면할 수 있는
+            기회를 얻게 되었는데, 책을 읽으며 느낀 점도 많고 이러한 생각을 가지신 분과 실제로 만나게
+            된다는 생각에 설레며 재미있게 책을 읽을 수 있었습니다. 
+            실제로 뵙게 된다면 많은 이야기를 나눌 수 있을 것 같아 기대가 됩니다!!😆
+          </pre
+        >
+      </article>
+    </section>
+    <footer id="moreInfo">
+      <h2>More info</h2>
+      <a href="calculator.html"><h4>- 내가 만든 계산기보러 가기 -</h4></a>
+      <img src="images/calculator.png" alt="calculator" />
+      <pre>테이블 이용!</pre>
+      <p>Copyright 2022 by 전유진</p>
+    </footer>
+  </body>
+</html>
+<!-- 5페이지 이상의 웹 페이지 V -->

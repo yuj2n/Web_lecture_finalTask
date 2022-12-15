@@ -1,0 +1,72 @@
+.menu label::before {
+    content: '\e5d2';
+}
+
+.menu li:nth-child(1) a::before {
+    content: '\e7fd';
+}
+
+.menu li:nth-child(2) a::before {
+    content: '\e30d';
+}
+
+.menu li:nth-child(3) a::before {
+    content: '\e7c8';
+}
+
+.menu li:nth-child(4) a::before {
+    content: '\e5d4';
+}
+
+/* 셀렉터 이용 V */
+
+main {
+    padding: 100px 0;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#yujin {
+    height: 470px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+#dev {
+    background-color: rgb(138, 254, 190);
+}
+
+#interest {
+    background-color: rgb(44, 97, 93);
+    color: white;
+}
+
+article {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer>li {
+    all: unset;
+}
+

@@ -1,0 +1,38 @@
+.menu li:nth-child(1) a::before {
+    content: '\ebcc';
+}
+
+.menu li:nth-child(2) a::before {
+    content: '\f8d8';
+}
+
+.menu li:nth-child(3) a::before {
+    content: '\e539';
+}
+
+.menu li:nth-child(4) a::before {
+    content: '\e02c';
+}
+
+.menu li:nth-child(5) a::before {
+    content: '\f092';
+}
+
+article {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    gap: 50px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 100px;
+
+}
+
